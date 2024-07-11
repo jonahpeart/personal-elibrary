@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Library</title>
+</head>
+<body>
+    <div class="header-container">
+
+       
+
+        <div class="title-container">
+            <p class="title-text">Electronic Library</p>
+            <img class="icon" alt="File:Book icoline.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/341px-Book_icoline.svg.png" decoding="async" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/512px-Book_icoline.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/682px-Book_icoline.svg.png 2x" data-file-width="341" data-file-height="187">
+        </div>
+
+
+        <form>
+        <div class="add-container">
+            
+                <div class="add-book-title">
+                    <input type="text" id="title" name="title" placeholder="Book title">
+                </div>
+
+                <div class="add-author-name">
+                    <input type="text" id="author" name="author" placeholder="Author">
+                </div>
+
+                <div class="add-page-count">
+                    <input class="page-count-input" type="number" min="0" placeholder="Page count #"/>
+                </div>
+
+                <div class="add-to-library">
+                    <input class="add-button" type="submit" value="Add to library"> 
+                </div>  
+            
+        </div>
+        </form>
+
+    </div>
+
+    <div class="content-container">
+    
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+        <div class="book-card 1">
+            <img class="book-cover" src="resources/book4cover.jpg" alt="">
+         
+            <div class="book-info">  
+                <p class="book-title 1">Soul</p>
+                <p class="book-author 1">Olivia Wilson</p>
+                <p class="page-count 1">254 pages</p>
+            </div>
+
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p class="read-yet">Have not read</p>
+            </div>
+
+        </div>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+        <div class="book-card 1">
+            <img class="book-cover" src="resources/book1cover.jpg" alt="">
+          
+            <div class="book-info">  
+                <p class="book-title 1">A Storm of Shadows and Pearls</p>
+                <p class="book-author 1">Marion Blackwood</p>
+                <p class="page-count 1">527 pages</p>
+            </div>
+
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p class="read-yet">Have not read</p>
+            </div>
+
+        </div>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    </div>
+
+
+
+
+</body>
+</html>
