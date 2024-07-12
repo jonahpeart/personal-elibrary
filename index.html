@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Library</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>eLibrary</title>
 </head>
 <body>
     <div class="header-container">
@@ -20,7 +22,7 @@
         </div>
 
 
-        <form>
+        <form class="loginForm">
         <div class="add-container">
             
                 <div class="add-book-title">
@@ -32,7 +34,7 @@
                 </div>
 
                 <div class="add-page-count">
-                    <input class="page-count-input" type="number" min="0" placeholder="Page count #"/>
+                    <input class="page-count-input" id="page-count" type="number" min="0" placeholder="Page count #"/>
                 </div>
 
                 <div class="add-to-library">
@@ -46,53 +48,36 @@
 
     <div class="content-container">
     
- <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    
-        <div class="book-card 1">
-            <img class="book-cover" src="resources/book4cover.jpg" alt="">
-         
-            <div class="book-info">  
-                <p class="book-title 1">Soul</p>
-                <p class="book-author 1">Olivia Wilson</p>
-                <p class="page-count 1">254 pages</p>
-            </div>
 
-            <div class="toggle-container">
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <p class="read-yet">Have not read</p>
-            </div>
-
-        </div>
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    
-        <div class="book-card 1">
-            <img class="book-cover" src="resources/book1cover.jpg" alt="">
-          
-            <div class="book-info">  
-                <p class="book-title 1">A Storm of Shadows and Pearls</p>
-                <p class="book-author 1">Marion Blackwood</p>
-                <p class="page-count 1">527 pages</p>
-            </div>
-
-            <div class="toggle-container">
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <p class="read-yet">Have not read</p>
-            </div>
-
-        </div>
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     </div>
-
-
-
-
 </body>
 </html>
+
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+        <!-- <div class="book-card">
+            <div class="image-container">
+                <span class="material-symbols-outlined remove-book">close</span>
+                <img class="book-cover" src="resources/book1cover.jpg" alt="">
+            </div>
+          
+            <div class="book-info">  
+                <p class="book-title">A Storm of Shadows and Pearls</p>
+                <p class="book-author">Marion Blackwood</p>
+                <p class="page-count">527 pages</p>
+            </div>
+
+            <div class="toggle-container">
+                <label class="switch">
+                    <input class="toggle" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p class="read-yet">Have not read</p>
+            </div>
+
+        </div> -->
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
